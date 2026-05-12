@@ -3,17 +3,17 @@
 # Student: Ethan Seth S. Gratuito
 
 # --- Variables and Data Types ---
-brand_name = "Common Ground"         # String
-location = "Legazpi Night Market"    # String
-shirts_to_sell = 25                  # Integer
-price_per_shirt = 150.50             # Float
-is_first_pop_up = True               # Boolean
+brand_name = input("Enter brand name: ")               # String
+location = input("Enter pop-up location: ")            # String
+shirts_to_sell = int(input("Enter inventory count: ")) # Integer conversion
+price_per_shirt = float(input("Enter unit price: "))   # Float conversion
+is_first_pop_up = True                                 # Boolean
 
 # Simple calculation
 projected_revenue = shirts_to_sell * price_per_shirt
 
 # Output
-print("--- Pop-Up Shop Details ---")
+print("\n--- Pop-Up Shop Details ---")
 print("Brand:", brand_name)
 print("Location:", location)
 print("First time popping up?", is_first_pop_up)
