@@ -1,9 +1,13 @@
-# Variables and Data Types
-brand_name = "Common Ground"            # String
-location = "Legazpi Night Market"       # String
-shirts_to_sell = 25                     # Integer
-price_per_shirt = 150.50                # Float
-is_first_pop_up = True                  # Boolean
+# Portfolio 1: Expressions
+# Course: BES10a
+# Student: Ethan Seth S. Gratuito
+
+# --- Variables and Data Types ---
+brand_name = "Common Ground"         # String
+location = "Legazpi Night Market"    # String
+shirts_to_sell = 25                  # Integer
+price_per_shirt = 150.50             # Float
+is_first_pop_up = True               # Boolean
 
 # Simple calculation
 projected_revenue = shirts_to_sell * price_per_shirt
